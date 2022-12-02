@@ -36,7 +36,7 @@ function showHeader() {
   }
 }
 function showSiteButton() {
-  const site = document.querySelector(".site");
+  const site = document.querySelector("#site");
 
   if (site) {
     if (site.className.includes("hidden")) {
